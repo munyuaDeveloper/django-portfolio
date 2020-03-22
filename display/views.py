@@ -5,5 +5,12 @@ from django.shortcuts import render
 
 
 # Create your views here.
+from .models import AboutMe
+
+
 def HomePage(request):
-    return render(request, 'index.html', {})
+    about = AboutMe.objects.all()
+    context = {
+        'aboutMe': about
+    }
+    return render(request, 'index.html', context)
