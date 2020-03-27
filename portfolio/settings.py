@@ -36,7 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'display',
+    'ckeditor',
+    'ckeditor_uploader'
 ]
+CKEDITOR_UPLOAD_PATH = 'uploads'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -116,3 +119,15 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static_in_env')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+CKEDITOR_CONFIGS = { 'default': 
+                         { 'toolbar': 'Custom', 'height': 300, 'toolbar_Custom':
+                             [ 
+                                 ['Styles', 'Format', 'Bold', 'Italic', 'Underline', 'Strike', 'SpellChecker', 'Undo', 'Redo'], 
+                                 ['Link', 'Unlink', 'Anchor'], 
+                                 ['Image', 'Flash', 'Table', 'HorizontalRule'], 
+                                 ['TextColor', 'BGColor'], 
+                                 ['Smiley', 'SpecialChar'], 
+                                 ['Source'], 
+                             ], 
+                           }
+                     }
