@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a5f14a-32ae-4a87-b22a-acf482b9fc6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/display/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/display/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/display/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +83,7 @@
       <workItem from="1585216021674" duration="22000" />
       <workItem from="1585216067877" duration="1384000" />
       <workItem from="1585220392338" duration="615000" />
+      <workItem from="1585392038857" duration="241000" />
     </task>
     <servers />
   </component>
