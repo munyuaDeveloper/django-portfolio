@@ -19,7 +19,7 @@ Django==3.0.4
 django-ckeditor==5.9.0
 django-js-asset==1.2.2
 ewmh==0.1.5
-Flask==0.12.2
+Flask==1.0
 Flask-BabelEx==0.9.3
 Flask-Compress==1.4.0
 Flask-Gravatar==0.4.2
